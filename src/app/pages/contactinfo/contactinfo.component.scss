@@ -1,0 +1,132 @@
+@import '../../../main-styles.scss';
+
+.centered-content{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;
+}
+
+.contact-manager-container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    max-width: 1000px;
+    max-height: 600px;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    padding: 42px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.contact-detail-container{
+    display: flex;
+    flex-direction: column;
+    flex-grow:1;
+    padding: 42px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.title{
+    font-family: 'Lato';
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+.contact-menu{
+
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-top: 5px;
+
+    .contact-menu-item{
+     display: flex;
+     padding: 10px,15px;
+     width: 100%;
+     margin-bottom: 5px;
+     align-items: center;
+     border: 5px;
+     color: #5f5f5f;
+
+     &:hover{
+         background: $light;
+     }
+
+     &:active{
+         background-color: #cff8ef;
+         color: $dark-green;
+     }
+
+    }
+}
+
+.contact-detail-menu{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-top: 15px;
+   
+
+    .contact-detail-item{
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     margin-top: 10px;
+     border: 5px;
+     background-color: white;
+     border-radius: 4px;
+     padding: 5px;
+     
+
+     .contact-detail-itemnum{
+    
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 10px;
+        border: 5px;
+       }
+    }
+
+    
+}
+
+h2,h3,h4{
+    
+        font-family: 'Lato';
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: $green;
+    
+}
+
+.contact-detail-menu-null{
+    display: none;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-top: 15px;
+    align-items: center;
+
+    .contact-detail-item{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10px;
+        border: 5px;
+        background-color: white;
+        border-radius: 4px;
+        padding: 5px;
+    }
+
+}
+

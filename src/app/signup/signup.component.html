@@ -1,0 +1,21 @@
+<div class="centered-content">
+    <div class="contact-manager-container">
+    
+    
+        <form class="signupform" #userForm="ngForm" (ngSubmit)="onSubmit()" novalidate>
+            
+            <h3 class="title">SIGN UP</h3>
+            <p><input type="text" class="fields" id="first" value="" placeholder="Name" name="name" [(ngModel)]="userModel.name"
+                 required #name="ngModel" ></p>
+            <p><input type="email" class="fields" id="enrollemail" value="" placeholder="email" name="email" [(ngModel)]="userModel.email"> </p>
+            <p><input type="password" class="fields" id="pass2" value="" placeholder="Enter password" 
+                #password name="password" [(ngModel)]="userModel.password"> </p>
+            <!--<a routerLink="/login"><button class="button is-primary" type="submit" id="signupbtn">SIGN UP</button></a>-->
+            <button class="button is-primary" type="submit" id="signupbtn">SIGN UP</button>
+            <p class="message">Already registered?  <a routerLink="/login">Login</a></p>
+        </form>
+    
+    
+    
+    </div>
+    </div>
