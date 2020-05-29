@@ -1,6 +1,6 @@
 #CONTACTBOOK USING MEAN STACK
 
-frontend is havin 3 components signup form, login form and the contactbook havinf the list of all contacts and details, Api folder is having the full Backend developed in NODE, EXPRESS AND Used MONGOOSE for mongodb, the database and back end has apis have User field, for signup and login form and particular used will have their own contact lict which can't be inherited by other, All Curd operation are on the basis of the ID of the particular user. Use 2 level hierarchy in the database with 2 Schemas first is user and second is contacts which functions by using the user Id of the user schema. The Api calls still ne to be made in the front end but the back end is fully developed and every hit is perfectly working as it is tested in POSTMAN.  
+frontend is havin 3 components signup form, login form and the contactbook havinf the list of all contacts and details, Api folder is having the full Backend developed in NODE, EXPRESS AND Used MONGOOSE for mongodb, the database and back end has apis have User field, for signup and login form and particular used will have their own contact lict which can't be inherited by other, All Curd operation are on the basis of the ID of the particular user. Use 2 level hierarchy in the database with 2 Schemas first is user and second is contacts which functions by using the user Id of the user schema. The Api calls still need to be made in the front end using DEPENDENCY INJECTION but the back end is fully developed and every hit is perfectly working as it is tested in POSTMAN.  
 
 # Frontend
 
